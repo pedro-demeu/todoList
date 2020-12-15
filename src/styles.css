@@ -1,1 +1,136 @@
-/* You can add global styles to this file, and also import other style files */
+body {
+  background: #f9f9f9;
+  margin: 0;
+  padding: 0;
+}
+.nav {
+  width: 100%;
+  background: #f03;
+  height: 100px;
+}
+.nav h1 {
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 20px;
+}
+.form {
+  width: 50%;
+  background: #f03d;
+  margin: 0 auto;
+  border-radius: 15px;
+}
+.form fieldset {
+  border: 1px solid white;
+  height: 110px;
+  padding: 25px;
+}
+.form label {
+  text-align: center;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 20px;
+}
+input {
+  width: 60%;
+  height: 25px;
+  border: none;
+  box-shadow: 0 0 0 0;
+  outline: 0;
+  border-bottom: 1px solid white;
+  background: none;
+  color: white;
+  font-family: Helvetica, sans-serif;
+  font-size: 15px;
+}
+::-webkit-input-placeholder {
+  color: white;
+}
+.btnSalvar {
+  width: 100px;
+  height: 35px;
+  background: #007bff;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  margin-left: 100px;
+  transition: 0.4s;
+  border-radius: 25px;
+}
+.btnSalvar:hover {
+  background: #007bbb;
+}
+p {
+  color: #3a0;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  margin-top: 25px;
+}
+small {
+  margin-top: 10px;
+  background: white;
+  color: red;
+  text-align: center;
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  padding: 10px;
+}
+hr {
+  width: 25%;
+  display: block;
+  margin: 0 auto;
+}
+.afazeres {
+  width: 50%;
+  margin: 0 auto;
+  display: block;
+}
+.afazeres .item {
+  color: #333;
+  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+}
+.afazeres .btnConcluir {
+  width: 100px;
+  height: 35px;
+  background: #0aa;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  margin-left: 10px;
+  transition: 0.4s;
+  border-radius: 25px;
+  margin-left: 300px;
+}
+.afazeres .btnConcluir:hover {
+  background: #099;
+}
+.afazeres .btnRemover {
+  width: 100px;
+  height: 35px;
+  background: #f03;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 25px;
+}
+.afazeres .btnRemover:hover {
+  background: #d03;
+}
+.afazeres .btnRefazer {
+  width: 100px;
+  height: 35px;
+  background: #fa0;
+  color: white;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: 0.4s;
+  border-radius: 25px;
+  margin-left: 300px;
+}
+.afazeres .btnRefazer:hover {
+  background: #f92;
+}
